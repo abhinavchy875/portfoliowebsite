@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(179, 226, 251);
+    width: 434px;
+    height: 150vh;
+    font-family: sans-serif;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(255, 95, 2);
+}
+.main {
+    width: 90vw;
+}
+.container {
+    display: flex;
+}
+.Infocontainer {
+    height: 78vh;
+    width: 140vh;
+    display:flex;
+    margin: 144px auto;
+    justify-self: space-around;
+}
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello {
+    font-size:  50px;
+    margin-top: 10px;
+}
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.about {
+    font-weight: bold;
+    font-size: 20;
+    margin-top: 10px;
+}
+.moreabout {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 9px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font: weight 21px;
+    font-size: 16px;
+    margin: 10 4px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 17px;
+}
+.btn:hover {
+    background-color: white;
+    color: blue;
+}
+.devpic img{
+    height: 78vh;
+    position: relative;
+    left: 50px;
+}
